@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+
+
+body {
+    font-family: 'Acme', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+    font-family: 'Poppins', sans-serif;   
+  }
+  header {
+    background-color: #111;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+  }
+  nav ul li {
+    margin: 0.5rem;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  section {
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  form label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  input, select, button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    background-color: #111;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  .barber-profile {
+    display: inline-block;
+    text-align: center;
+    margin: 1rem;
+  }
+  .barber-profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #111;
+    color: #fff;
+    margin-top: 2rem;
+  }
+  @media screen and (max-width: 600px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+    .barber-profile {
+      display: block;
+      margin: 1rem auto;
+    }
+  }

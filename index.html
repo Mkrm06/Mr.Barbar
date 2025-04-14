@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mr. Barber - Home</title>
+  <link rel="stylesheet" href="styles.css" />
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  
+  <style>
+
+  </style>
+</head>
+<body>
+    <header>
+        <h1>Mr. Barber</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#booking">Book Appointment</a></li>
+                <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                <li class="nav-item"><a class="nav-link" href="Register.html">Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="Contac_page.html">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="customer_profile.html">Profile</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+  <section id="home">
+    <h2>Welcome to Mr. Barber</h2>
+    <img src="Barbar.jpeg" alt="Barber Shop" style="width: 100%; border-radius: 10px; margin-top: 1rem;">
+    <p>Your premium grooming destination in Colombo 3.</p>
+  </section>
+
+  <section id="booking">
+    <h2>Book an Appointment</h2>
+    <form>
+      <label>Choose Service:
+        <select>
+          <option>Haircut</option>
+          <option>Beard Trim</option>
+          <option>Hair Coloring</option>
+        </select>
+      </label>
+      <label>Select Barber:
+        <select>
+          <option>Ravi</option>
+          <option>Kamal</option>
+          <option>Asif</option>
+        </select>
+      </label>
+      <label>Date: <input type="date" /></label>
+      <label>Time: <input type="time" /></label>
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <section id="queue">
+    <h2>Walk-In Queue</h2>
+    <button>Join Virtual Queue</button>
+    <p>Estimated wait time: 20 minutes</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Haircut - Rs. 1000</li>
+      <li>Beard Trim - Rs. 500</li>
+      <li>Hot Towel Shave - Rs. 800</li>
+      <li>Hair Coloring - Rs. 1500</li>
+    </ul>
+    <img src="Child.jpeg" alt="Haircut Services" style="width: 100%; border-radius: 10px; margin-top: 1rem;">
+    <img src="Beard.jpeg" alt="Haircut Services" style="width: 100%; border-radius: 10px; margin-top: 1rem;">
+  </section>
+
+  <section id="barbers">
+    <h2>Meet Our Barbers</h2>
+    <div class="barber-profile">
+      <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Ravi">
+      <p><strong>Ravi</strong><br>Fade Specialist</p>
+    </div>
+    <div class="barber-profile">
+      <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Kamal">
+      <p><strong>Kamal</strong><br>Beard Artist</p>
+    </div>
+    <div class="barber-profile">
+      <img src="https://randomuser.me/api/portraits/men/81.jpg" alt="Asif">
+      <p><strong>Asif</strong><br>Hair Color Expert</p>
+    </div>
+  </section>
+
+  <section id="loyalty">
+    <h2>Loyalty Program</h2>
+    <p>Earn points every visit and unlock rewards!</p>
+    <img src="Loyalty.jpeg" alt="Loyalty Program" style="width: 100%; border-radius: 10px; margin-top: 1rem;">
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mr. Barber. All rights reserved.</p>
+  </footer>
+</body>
+</html>
